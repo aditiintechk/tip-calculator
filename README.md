@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL - To Be Done](https://your-solution-url.com)
-- [Live Site URL - To Be Done](https://your-live-site-url.com)
+- [Tip Calculator Code](https://github.com/Aditi002-holo/tip-calculator)
+- [Tip Calculator](https://aditi002-holo.github.io/tip-calculator/)
 
 
 ## My process
@@ -39,7 +39,9 @@ Users should be able to:
 
 ### What I learned
 
-TBD
+- Always target specific element.
+- DOM Manipulation always has a cost.
+- Atomize code.
 
 
 ## Tip Calculator JavaSscript Detailed Logic
