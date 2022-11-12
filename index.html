@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Tip calculator app | Frontend Mentor</title>
+</head>
+<body>
+  <header>
+    <h1>SPLI <br>
+      TTER</h1>
+  </header>
+  <main>
+    <div>
+      <section>
+        <h3 class="bill-title">Bill</h3>
+        <div class="bill">
+          <img src="./images/icon-dollar.svg" alt="dollar">
+          <input type="number" name="bill" id="bill-input" placeholder="0">
+        </div>
+      </section>
+  
+      <section class="select-tip">
+        <h3>Select Tip %</h3>
+        <button class="tip" id="five-per" value="0.05">5%</button>
+        <button class="tip" id="ten-per" value="0.1">10%</button>
+        <button class="tip" id="fifteen-per" value="0.15">15%</button>
+        <button class="tip" id="twentyfive-per" value="0.25">25%</button>
+        <button class="tip" id="fifty-per" value="0.5">50%</button>
+        <input type="number" name="custom-tip" class="tip" id="custom-tip" placeholder="Custom">
+      </section>
+  
+      <section id="people-count"  class="people-count" >
+        <h3>Number of People</h3>
+        <div class="people-div">
+          <img src="./images/icon-person.svg" alt="person">
+          <input type="number" name="people" id="people" placeholder="0">
+        </div>
+      </section>
+    </div>
+    
+    <div class="second-div">
+      <section id="display-tip">
+        <div class="amt-container">
+          <div class="title">
+            <h3>Tip Amount</h3>
+            <h5>/ person</h5>
+          </div>
+          <h2 id="tip-amt">$0.00</h2>
+        </div>
+  
+        <div class="amt-container">
+          <div class="title">
+            <h3>Total</h3>
+            <h5>/ person</h5>
+          </div>
+          <h2 id="total-amt">$0.00</h2>
+        </div>
+        
+        <div class="button-wrapper">
+          <button id="reset" class="reset">RESET</button>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
