@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- [Tip Calculator Code](https://github.com/Aditi002-holo/tip-calculator)
-- [Tip Calculator](https://aditi002-holo.github.io/tip-calculator/)
+- [Tip Calculator Code](https://github.com/aditiintechk/tip-calculator)
+- [Tip Calculator](https://aditiintechk.github.io/tip-calculator/)
 
 
 ## My process
